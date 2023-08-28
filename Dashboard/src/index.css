@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rotate-fadding {
+  animation: rotation 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.MuiDataGrid-footerContainer,
+.MuiDataGrid-columnHeaders {
+  background-image: linear-gradient(230deg, #05c5e1 0%, #022a6f 100%);
+  color: white;
+}
+.icon-option:hover {
+  color: #078bd4;
+}
+.icon svg,
+.MuiDataGrid-columnHeadersInner [data-testid="CheckBoxOutlineBlankIcon"] {
+  color: white;
+}
+.aproved {
+  background-color: #2e7d32;
+  color: white;
+}
+.denied {
+  background-color: #ba000d;
+  color: white;
+}
+.pending {
+  background-color: #c39700;
+  color: white;
+}
+.cell-wrap {
+  white-space: break-spaces !important;
+  max-height: 100px !important;
+}
+.row-wrap {
+  max-height: 100px !important;
+}
+.swal2-container {
+  z-index: 2000 !important;
+}
